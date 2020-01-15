@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  text-align: center;
+  color: greenyellow;
+}
+
+.wrapper {
+  font-size: 40px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  border-width: 15px;
+  border-radius: 30px;
+}
+
+h1,
+h2 {
+  margin-top: 100px;
+}
+
+#titleImg {
+  border-radius: 65px;
+  float: left;
+  margin-bottom: 100px;
+  margin-bottom: 50px;
+  opacity: 0.3;
+}
+
+.gameArea {
+  font-size: x-large;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  border-width: 15px;
+  border-radius: 30px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 140px;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
