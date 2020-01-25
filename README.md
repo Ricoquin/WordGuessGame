@@ -1,3 +1,3 @@
 Play the game here !
 
-rico.quin.github.io/WORDGUESSGAME
+https://ricoquin.github.io/WordGuessGame/
