@@ -1,51 +1,46 @@
-body {
-  background-color: black;
-  text-align: center;
-  color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.wrapper {
-  font-size: 40px;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-  border-width: 15px;
-  border-radius: 30px;
+html {
+  position: relative;
 }
 
-h1,
-h2 {
-  margin-top: 100px;
+.jumbotron {
+  background-image: url('/assets/images/js-seinfeld.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  text-align: left;
 }
 
-#titleImg {
-  border-radius: 65px;
-  float: left;
-  margin-bottom: 100px;
-  margin-bottom: 50px;
-  opacity: 0.3;
+.container {
+  background-color: navy;
+  color: red;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-.gameArea {
-  font-size: x-large;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-  border-width: 15px;
-  border-radius: 30px;
-  margin-left: 400px;
-  margin-right: 400px;
-  margin-bottom: 140px;
+.card-body {
+  background-color: rgb(218, 188, 22);
 }
 
-@keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
-      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+/* Mobile Styles */
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: grey;
   }
+}
 
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
-      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: grey;
   }
 }
