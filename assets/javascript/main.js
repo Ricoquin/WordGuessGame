@@ -110,7 +110,6 @@ function roundComplete() {
   if (lettersInChosenWord.toString() === correctGuess.toString()) {
     // adds to number of wins
     wins++;
-    alert('You win!');
 
     // updates total wins and resets the game for another go !
     document.getElementById('win-counter').innerHTML = wins;
@@ -120,7 +119,6 @@ function roundComplete() {
   // If you run out of guesses this here will direct the game to populate the losses and reset the game to try again and you will be told to try again.
   else if (guessTotal === 0) {
     losses++;
-    alert('You lose');
 
     // Updates the number of losses //
     document.getElementById('loss-counter').innerHTML = losses;
