@@ -59,7 +59,7 @@ function beginGame() {
   // this method will populate number of blanks needed based on the word chosen to play
   document.getElementById('word-blanks').innerHTML = correctGuess.join(' ');
 
-  // this method resets guesses for new game
+  // populates letters into this area on HTML page
   document.getElementById('wrong-guesses').innerHTML = incorrectLetter.join(
     ' '
   );
