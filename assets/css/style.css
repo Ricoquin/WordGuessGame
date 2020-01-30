@@ -9,7 +9,7 @@ html {
 }
 
 .jumbotron {
-  background-image: url('/assets/img/jsSeinfeld.png');
+  background-image: url('../img/jsSeinfeld.png');
   background-color: white;
   background-repeat: no-repeat;
   background-position: center;
