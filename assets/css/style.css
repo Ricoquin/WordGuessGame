@@ -9,14 +9,13 @@ html {
 }
 
 .jumbotron {
-  background-image: url('../img/jsSeinfeld.png');
   background-color: white;
-  background-repeat: no-repeat;
-  background-position: center;
   height: 300px;
-  text-align: left;
+  text-align: center;
 }
-
+#jumboImg {
+  margin: -30px auto 0 auto;
+}
 .container {
   background-color: navy;
   color: red;
